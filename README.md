@@ -16,9 +16,9 @@ comment out lines 84-92
 
 The code was tested with MATLAB R2018a and MOSEK 8.1.0.63 on an Intel Core i9, 18 core, 2.60 GHz, 128 GB RAM machine running Ubuntu 18.04 LTS.
 
-To solve hybrid ocp using occupation measure, run examples/run_T\*\_freeIC\_deg\*.m in MATLAB
+* To solve hybrid ocp using occupation measure, run examples/run_T\*\_freeIC\_deg\*.m in MATLAB
 
-To solve hybrid ocp using GPOPS-II with **given** sequence of transition, run examples/Gpops/run\_Gpops\_T\*\_freeIC\_Main.m in MATLAB.
+* To solve hybrid ocp using GPOPS-II with **given** sequence of transition, run examples/Gpops/run\_Gpops\_T\*\_freeIC\_Main.m in MATLAB.
 This code does not search through all possible sequences of transitions and therefore the computation time will be significantly smaller.
 
-To plot the trajectories, run examples/Plot/GenFigures.m in MATLAB.
+* To plot the trajectories, run examples/Plot/GenFigures.m in MATLAB.
