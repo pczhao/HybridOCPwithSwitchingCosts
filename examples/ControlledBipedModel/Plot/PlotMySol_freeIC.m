@@ -34,7 +34,7 @@ current_time = 0;
 current_phase = 1;
 
 while current_time < MaxTime - 0.01
-    disp(current_mode);
+%     disp(current_mode);
     switch current_mode
         case 1
             options = odeset('Events',@(tt,xx) EvtFunc12_approx3(tt,xx,params));

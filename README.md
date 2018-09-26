@@ -13,3 +13,5 @@ new: [sol, y, basis, dual_multiplier] = minimize(pr,varargin)
 * Lines 84-92:  buildSOSDecompPrimal function
 comment out lines 84-92
 
+
+The code was tested with MATLAB R2018a and MOSEK 8.1.0.63 on an Intel Core i9, 18 core, 2.60 GHz, 128 GB RAM machine running Ubuntu 18.04 LTS.
